@@ -1,0 +1,75 @@
+/* Add here all your CSS customizations */
+.an_cot_1 {
+    
+}
+.an_cot_2 {
+    
+}
+.an_cot_3 {
+    
+}
+@media screen and (min-width: 821px) {
+    .an_cot_1 {
+        display: none;
+    }
+    .logo_ten_chu_quan_chuc_nang {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .logo_ten_truong {
+        font-size: 20px
+    }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 820px) {
+    .an_cot_1 {
+        display: none;
+    }
+    .an_cot_2 {
+        display: none;
+    }
+    .logo_ten_chu_quan_chuc_nang {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .logo_ten_truong {
+        font-size: 18px
+    }
+    
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 480px) {
+    .an_cot_1 {
+        display: none;
+    }
+
+    .an_cot_2 {
+        display: none;
+    }
+    .an_cot_3 {
+        display: none;
+    }
+    .logo_ten_chu_quan_chuc_nang {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .logo_ten_truong {
+        font-size: 13px
+    }
+}
+#header .header-body_logo {
+    height: auto !important;
+    background-color: #253579;
+}
+#header .ten_ukh_container {
+    color:#ffffff;
+    padding-left:10px;
+}
+#footer .ten_ukh_lien_he {
+    color: #ffffff;
+}
+
+
+
